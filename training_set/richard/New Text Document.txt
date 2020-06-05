@@ -1,0 +1,38 @@
+DEVOPS - 
+-> SILOS is one of the major problem in organizations, that is why we shifted to DevOps. Silos is the communication gap between developer team and operations team.
+-> git init - used to set a local repository. 
+-> If we have to put our files in staging area then in commit area and then we can push it to github. And also after doing commit then only we can do roll back.
+-> When the file is in staging area it is in our own Hard Disk but after we do commit, this file is copied to another location of git.
+-> We have to set our email and username using 
+git config -- global user.mail " " / user.name " ".
+-> We have to give remote location so that whenever we do git push, it knows where to push the file. We do this - 
+# git remote add <name> <URL location of github repository(https)>.
+-> git Track is a concept, it keeps eye on both repositories of git and github and git will tell us that we are ahead of commit or not.
+-> We have to create a link between local repository and github repository. For this we have to create branch and name of our branche is master.
+
+
+# git push --set-upstream <name> master 
+We have to this only once and now on we can do any changes to the file and commit it.
+-> In linux we have to give passwords, called credentials, everytime but in windows or mac we have to give passwords only once because they store passwords somewhere. We can see it in our Credential Manager.
+
+Now operation guys have to deploy the file
+-> Our web pages must be in /var/www/html/ folder. 
+-> git clone <URL>  .
+This will deploy our webpage. 
+-> We don't want to do these things manually, we want automatically whenever we do any changes in our code it also deploy it.
+For this we use JENKINS. It is a tool that can do CI( continuous integration).
+
+
+
+https://docs.google.com/document/d/1GZOmwUyzAHX6M53ihw4FNdfVMg_3D_EDfMp5CnF0Csk/edit
+
+https://docs.google.com/document/d/1NRgkeilYLjKaqL-p0KIqIhzEcVipOot04TjYhsQraDo/edit
+
+https://docs.google.com/document/d/1RJsRuRVgWBHRqnbdDD3yWtoSoIboJsrRMVmt3bx4NW8/edit
+
+
+
+
+https://www.amazon.in/SteelSeries-Gaming-Rubber-Optical-Compatible/dp/B000UEZ37G/ref=sr_1_1?dchild=1&qid=1589373249&refinements=p_89%3ASteelSeries&s=computers&sr=1-1&th=1
+
+https://www.amazon.in/Redgear-MP35-Speed-Type-Gaming-Mousepad/dp/B01J1CFO5I/ref=sr_1_1?crid=H96FP6D3YXGX&dchild=1&keywords=mousepad+gaming&qid=1589373146&s=computers&sprefix=mousep%2Ccomputers%2C257&sr=1-1
